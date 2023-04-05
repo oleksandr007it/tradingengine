@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.idevhub.coino.tradingengine"
+    },
+    "jhipsterVersion": "5.0.2",
+    "applicationType": "microservice",
+    "baseName": "tradingengine",
+    "packageName": "com.idevhub.coino.tradingengine",
+    "packageFolder": "com/idevhub/coino/tradingengine",
+    "serverPort": "8079",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "9ce8c4c1e13a25a70e4b0f3e0c5a4a0d0cd08ddf",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "yarn",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

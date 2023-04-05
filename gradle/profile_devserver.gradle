@@ -1,0 +1,19 @@
+
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    compile "org.springframework.boot:spring-boot-devtools"
+}
+
+def profiles = 'devserver'
+if (project.hasProperty('no-liquibase')) {
+    profiles += ',no-liquibase'
+}
+
+bootRun {
+    args = []
+}
+
+
+processResources(processResourcesHandler(profiles))
+
